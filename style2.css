@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: 'Preahvihear', sans-serif;
+    background-color: #2edae0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    border: 5px solid #333;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título de la página */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para la barra de agregar tarea */
+.a {
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario de agregar tarea */
+form {
+    display: flex;
+}
+
+/* Estilos para el campo de entrada de texto */
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+/* Estilos para el botón de agregar tarea */
+.btn-add {
+    padding: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para la lista de tareas */
+li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para el botón de borrar tarea */
+.btn-delete {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para el mensaje cuando no hay tareas */
+.nada {
+    display: none;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Estilos para la sección de la fecha actual */
+#fechaActual {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+#reset{
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+  }
+  #reset:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
